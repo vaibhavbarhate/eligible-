@@ -39,5 +39,12 @@
         .about_form {
             padding: 20px 24px 34px 24px;
         }
-
+        .different_bg {
+            padding: 48px 32px 77px 22px;
+        }
+        .different_title h4 {
+            font-size: 27px;
+            line-height: 44px;
+            padding: 15px;
+        }
 }
