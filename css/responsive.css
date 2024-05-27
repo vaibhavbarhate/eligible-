@@ -20,6 +20,24 @@
 @media only screen and (max-width: 448px) {
     .banner_video {
             height: 226px;
-           
-        }    
+        }
+        .banner_video h1 {
+            color: #fff;
+            font-family: "Domine", serif;
+            font-size: 32px;
+            text-align: center;
+            line-height: 42px;
+        }
+        h3 {
+            font-size: 19px;
+            line-height: 33px;
+        }   
+        p {
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .about_form {
+            padding: 20px 24px 34px 24px;
+        }
+
 }
