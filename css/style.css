@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Domine", serif;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 42px;
+    color: #000;
+}
+
+h1,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+    font-family: "Domine", serif;
+    color: #531212;
+
+}
+
+h2 {
+    font-family: "Domine", serif;
+    font-size: 42px;
+    color: #531212;
+}
+
+h3 {
+    font-family: "Domine", serif;
+    font-size: 32px;
+    color: #531212;
+    line-height: 52px;
+
+}
+header{
+    position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the header stays on top of other content */
+  width: 100%; 
+  background-color: #fff;
+}
+.header_logo {
+    max-width: 227px;
+}
+
+.nav-item a {
+    font-family: "Domine", serif;
+    font-size: 20px;
+    line-height: 16px;
+    color: #531212;
+}
+
+.nav-item a:hover {
+    color: #000;
+}
+
+.navbar {
+    background: fff;
+    padding-top: 37PX;
+    padding-bottom: 37PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_icon svg {
+    margin-left: 16px;
+    color: #531212;
+}
+
+.header_icon svg:hover {
+    margin-left: 16px;
+    color: #000;
+}
+
+.banner_video {
+    position: relative;
+    width: 100%;
+    height: 761px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_video video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.banner_video h1 {
+    color: #fff;
+    font-family: "Domine", serif;
+    font-size: 72px;
+    text-align: center;
+    line-height: 42px;
+}
+
+.eligible_about {
+    padding-top: 75px;
+}
+
+.eligible_img {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.eligible_message {
+        display: flex;
+        align-items: center; /* Aligns items vertically in the center */
+        gap: 15px; /* Space between image and text */
+        padding-top: 20px; /* Assuming pt-4 is equivalent to 20px */
+      }
+
+
+
+.launch-message {
+    padding-left: 14px;
+}
+.message_img img{
+        width: 47px; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+/* .message {
+    width: 60px;
+    padding-top: 18px;
+
+}
+
+.message_heart {
+    width: 90px;
+    ;
+    padding-top: 18px;
+} */
+
+.about_form {
+    background-color: #F3F3F3;
+    border-radius: 28px;
+    padding: 20px 48px 34px 48px;
+    margin-top: 80px;
+}
+
+.sing_form label {
+    font-family: "Domine", serif;
+    font-size: 22px;
+}
+
+.sing_form input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid #531212;
+    background-color: #F3F3F3;
+}
+
+.check_box {
+ padding-top: 30px;
+}
+
+.check_box input {
+    text-align: left;
+    width: auto;
+    accent-color: #531212;
+    border-radius: 5px;
+    height: 22px;
+    width: 22px;
+}
+
+.check_box label {
+    padding-left: 9px;
+
+}
+.about_btn{
+    padding-top: 30px;
+
+}
+.about_form p{
+    font-size: 20px;
+}
+.about_btn button{
+    background-color: #531212;
+    padding: 7px 38px;
+    border-radius:6px;
+}
+.different_bg{
+background: radial-gradient(50.56% 50% at 47.43% 50%, #AF4A4A 0%, #FFB865 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+padding: 48px 84px 77px 84px;
+margin-top: 60px;
+}
+.different_title{
+    display: flex;
+}
+.different_title h4{
+    font-size: 40px;
+    font-family: "Domine", serif;
+    line-height: 57px;
+color: #0A0808;
+padding: 24px;
+
+}
+.different_text p{
+    font-size: 18px;
+    font-family: "Domine", serif;
+    line-height: 32px;
+color: #0A0808;
+}
+.eligible_bordre{
+padding-top: 40px;
+padding-bottom: 80px;
+}
+.eligible_different {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 15px; /* Space between image and text */
+    padding-top: 20px; /* Assuming pt-4 is equivalent to 20px */
+  }
+/* .eligible_heart{
+    width: 54px;
+  height: 54px;
+} */
+.eligible_heart img {
+    width: 47px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+.eligible_different p{
+    padding-left: 14px;
+    margin: 0;
+}
+.different_bg_img{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.different_img{
+    position: absolute;
+    left: 40%;
+    top: 70px;
+}
+.member_bg{
+    background: rgba(83, 18, 18, 1);
+padding: 63px 84px 37px 84px;
+    
+}
+.member{
+    padding-top: 80px;
+}
+.member_bg p{
+font-size: 22px;
+color: rgba(255, 255, 255, 1);
+text-align: justify;
+}
+.member_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.member_video video{
+    width: 400px;
+    height: 760px;
+}
+.member_icon {
+    max-width:345px;
+    padding-top: 60px;
+}
+.member_icon h2{
+    color: rgba(22, 22, 22, 1);
+
+}
+.member_icon h3{
+    color: rgba(22, 22, 22, 1);
+
+}
+.member_icon p{
+    color: rgba(22, 22, 22, 1);
+font-size: 18px;
+font-family: lato;
+line-height: 32px;
+}
+.where_bg{
+    background-image: url(../img/eligible.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.where_overlay{
+    background: linear-gradient(95.76deg, rgba(83, 18, 18, 0.8) 28.74%, rgba(83, 18, 18, 0.136) 138.46%);
+
+}
+.eligible_where{
+    padding: 219px 0px 140px 5px; 
+
+}
+
+.about_form .Sign-up{
+    text-align: center;
+    color: #531212;
+}
+.footer_all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+padding: 40px;  }
+.footer_bg{
+    background-color: #531212;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+.footer_logo{
+    max-width: 227px;
+    text-align: center;
+}
+.footer_menu{
+    padding-top: 40px;
+}
+.footer_menu ul{
+    color: #fff;
+    list-style: none;
+    display: flex;
+}
+.footer_menu ul li{
+    font-family: "Domine", serif;
+    padding-left: 40px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.footer_icon svg{
+    margin-left: 16px !important;
+}
